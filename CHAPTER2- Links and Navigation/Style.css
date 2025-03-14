@@ -2,11 +2,25 @@ body {
     background-color: #F8FAFC;
 }
 
-nav{
-    padding: 10px 0;
+nav a{
     background-color:#D9EAFD;
+    padding: 10px;
+    text-decoration:none; 
 }
+
 #abc{
-    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
     background-color: #D9EAFD;
+    text-decoration: none;
+    font-weight: bold;
+    width: 400px;
+    margin: 20px auto;
 }
