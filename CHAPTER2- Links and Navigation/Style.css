@@ -2,9 +2,11 @@ body {
     background-color: #F8FAFC;
 }
 
-nav a{
+.nav a{
     background-color:#D9EAFD;
     padding: 10px;
+    text-align: center;
+    display: inline-block;
     text-decoration:none; 
 }
 
