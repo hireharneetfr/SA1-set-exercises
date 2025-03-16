@@ -9,17 +9,19 @@ body {
     display: inline-block;
     text-decoration:none; 
     border-radius: 8px;
-}
-
-nav {
-    text-align: center;
-    margin-top: 20px;
+    width:200;
 }
 
 #abc{
     display: flex;
     justify-content: center;
     font-weight: bold;
+}
+
+#def{
+    text-align: center;
+    font-size:large;
+    margin: 0 auto;
 }
 
 .btn {
@@ -32,4 +34,9 @@ nav {
     border-radius: 8px;
     width: 400px;
     margin: 20px auto;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
 }
