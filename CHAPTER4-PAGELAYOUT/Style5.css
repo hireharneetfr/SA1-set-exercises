@@ -1,0 +1,123 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #17072b;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.header-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Tahoma', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Main content styles */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+}
+
+.welcome {
+    flex: 2;
+    padding-right: 30px;
+}
+
+.welcome h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    margin-bottom: 20px;
+}
+
+.video-link {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Line Up sidebar styles */
+.line-up {
+    flex: 1;
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.line-up h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.line-up ul {
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+.line-up ul li {
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-placeholder {
+    width: 48%;
+    padding-bottom: 48%;
+    background-color: #ccc;
+}
+
+/* Footer styles */
+footer {
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
