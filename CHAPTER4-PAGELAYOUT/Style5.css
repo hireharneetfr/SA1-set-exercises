@@ -1,5 +1,5 @@
-/* Reset and base styles */
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,20 +11,16 @@ body {
     line-height: 1.6;
 }
 
-/* Header styles */
 header {
     background-color: #17072b;
     color: #FFFFFF;
     padding: 20px 0;
 }
 
-.header-content {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+.abc {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
 }
 
 h1 {
@@ -48,7 +44,6 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
-/* Main content styles */
 main {
     width: 90%;
     max-width: 1200px;
@@ -111,7 +106,7 @@ main {
     background-color: #ccc;
 }
 
-/* Footer styles */
+
 footer {
     background-color: #8c15e9;
     color: #FFFFFF;

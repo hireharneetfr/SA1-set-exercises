@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#F8FAFC,#D9EAFD)
+    background: linear-gradient(#D9EAFD,#8F87F1)
 }
 
 .nav a{
@@ -17,6 +17,7 @@ nav {
 }
 
 #abc{
+    font-family: fantasy;
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -32,4 +33,11 @@ nav {
     border-radius: 8px;
     width: 400px;
     margin: 20px auto;
+}
+
+.box {
+    border: 3px solid white;
+    border-radius: 10px; 
+    padding: 20px; 
+    text-align: center; 
 }
