@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 2rem;
+  text-align: center;
+}
+
+#rgbDisplay {
+  color: #0ff;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: transform 0.2s ease;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+}
+
+#livesScore {
+  margin-top: 1rem;
+}
+
+#feedback {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#playAgain {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  color: #0ff;
+}
