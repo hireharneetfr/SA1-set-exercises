@@ -1,5 +1,7 @@
 body {
-    background: linear-gradient(#D9EAFD,#8F87F1)
+    background-image: url(op.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav a{
