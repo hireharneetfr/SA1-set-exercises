@@ -5,22 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RGB Color Guessing Game</title>
   <link rel="stylesheet" href="style14.css">
+   <!-- Link to the Google font "Orbitron" more of  gaming look/vibe (got it from chatgpt) -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
     <h1>Guess the Color: </h1>
+    <!-- Display the title of the game -->
     <h1><span id="rgbDisplay">rgb(?, ?, ?)</span></h1>
+     <!-- Display the target RGB value that the player needs to guess -->
     <div class="choices" id="choices"></div>
+    <!-- Container to display color boxes to the player -->
     <div id="feedback"></div>
+    <!-- Feedback message will be displayed here -->
     <div id="livesScore">
+      <!-- Display the current number of lives and score -->
       <p>Lives: <span id="lives">3</span></p>
       <p>Score: <span id="score">0</span></p>
     </div>
+    <!-- Button to play again -->
     <button id="playAgain" style="display:none;">Play Again</button>
   </div>
 
+<!-- Footer  information -->
   <footer>&copy; RGB COLOR GUESSING GAME - 2025 HARNEET</footer>
+  <!-- Link to external JavaScript file -->
   <script src="Java2.js"></script>
 </body>
 </html>

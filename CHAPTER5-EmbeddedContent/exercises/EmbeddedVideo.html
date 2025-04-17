@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpiderMan No Way Home Trailer</title>
+    <!-- Internal CSS styling for background, layout, and video -->
     <style>
         body, html {
             margin: 0;
             padding: 0;
-            background-image: url(videondimage/spideyyy.jpg);
-            background-size: cover;
+            background-image: url(videondimage/spideyyy.jpg); /* Adds picture to the background */
+            background-size: cover; 
             background-position: center;
             background-repeat: no-repeat;
             height: 100vh;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: center; /* Makes sure it is centered */
         }
         
         .box {
             position: relative;
-            width: 60%; 
+            width: 60%; /* Responsive width */
             max-width: 1200px;
             padding: 20px;
         }
 
         video {
-            width: 100%;
-            height: auto;
+            width: 100%; /* Makes video fill the container */
+            height: auto; /* Keeps the aspect ratio */
         }
 
     
@@ -35,15 +36,16 @@
 
 </head>
 <body>
+    <!-- Video container box -->
     <div class="box">
-
+        
+         <!-- Embedded video player with autoplay and controls enabled -->
         <video controls autoplay>
             <source src="videondimage/SPIDER-MAN NO WAY HOME - Official Trailer (HD) - Sony Pictures Entertainment (720p, h264).mp4" type="video/mp4">
         </video>
 
     </div>
     
-
 </body>
 </html>
 
