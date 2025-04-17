@@ -3,7 +3,7 @@ Each chapter includes one mandatory and one bonus exercise. The mandatory exerci
 
 For each exercise you should create a new folder with the name of the exercise and save it to this exercises folder in your local repository. Once you have completed your solution you should make sure you commit and push your work to GitHub. You can commit and push as many changes to your solutions as you wish; only those pushed before the deadlines will be marked.
 
-## Assessment Exercises
+## Assessment Exercisess
 
 ### Structuring a webpage :ballot_box_with_check:
 
