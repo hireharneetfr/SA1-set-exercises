@@ -1,5 +1,5 @@
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,112 +7,108 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #000000;
-    line-height: 1.6;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #8c15e9;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
 }
 
 header {
     background-color: #17072b;
-    color: #FFFFFF;
-    padding: 20px 0;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-.abc {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-}
-
-h1 {
-    font-family: 'Tahoma', sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
+    list-style-type: none;
+    padding: 0;
 }
 
 nav ul li {
-    margin-left: 20px;
+    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
 }
 
-main {
-    width: 90%;
-    max-width: 1200px;
-    margin: 30px auto;
+.main-content {
     display: flex;
+    justify-content: space-between;
+    padding: 40px;
 }
 
-.welcome {
-    flex: 2;
-    padding-right: 30px;
-}
-
-.welcome h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+.welcome, .line-up {
+    width: 48%;
 }
 
 .welcome p {
-    margin-bottom: 20px;
+
+    line-height: 1.6;
 }
 
-.video-link {
-    margin-top: 20px;
-    padding: 10px;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+.welcome img, .line-up img {
+    width: 140%;
+    margin-top: 25px;
 }
 
-/* Line Up sidebar styles */
 .line-up {
-    flex: 1;
-    background-color: #172d67;
-    color: #FFFFFF;
+    width: 30%;
+    background-color: #172d66;
     padding: 20px;
 }
 
-.line-up h3 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+.line-up-box {
+    background-color: #172d66; 
+}
+
+.line-up h2 {
+    color: white;
+    font-size: 30px;
+    line-height: 2;
 }
 
 .line-up ul {
-    list-style-position: inside;
-    margin-bottom: 20px;
+    list-style-type: none;
+    padding: 0;
+    line-height: 2;
 }
 
 .line-up ul li {
-    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
 }
 
-.images {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+.line-up-images img {
+    width: 45%;
+    border-radius: 8px;
+    
 }
-
-.image-placeholder {
-    width: 48%;
-    padding-bottom: 48%;
-    background-color: #ccc;
-}
-
 
 footer {
-    background-color: #8c15e9;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    font-size: 14px;
 }
