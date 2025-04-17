@@ -1,11 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML and CSS Resource- Bonus Exercise</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML & CSS Quick Reference</title>
+  <link rel="stylesheet" href="style11.css">
 </head>
 <body>
-    
+
+
+  <nav>
+    <ul>
+      <li><a href="#html-tags">HTML Tags</a></li>
+      <li><a href="#css-properties">CSS Properties</a></li>
+    </ul>
+  </nav>
+
+
+  <header>
+    <h1>HTML & CSS Quick Reference Guide</h1>
+  </header>
+
+
+  <section id="html-tags">
+    <h2>HTML Tags</h2>
+
+    <div class="tag-box">
+      <h3>&lt;h1&gt; - Heading Tag</h3>
+      <p>Defines a main heading on the page.</p>
+      <pre><code>&lt;h1&gt;Welcome!&lt;/h1&gt;</code></pre>
+      <div class="preview">
+        <h1>Welcome!</h1>
+      </div>
+    </div>
+
+    <div class="tag-box">
+      <h3>&lt;p&gt; - Paragraph Tag</h3>
+      <p>Used to define a block of text.</p>
+      <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+      <div class="preview">
+        <p>This is a paragraph.</p>
+      </div>
+    </div>
+
+  <div class= "tag-box">
+    <h3>&lt;b&gt; - Bold</h3>
+    <p>Makes the text bold.</p>
+    <pre><code>&lt;b&gt;Bold Text&lt;/b&gt;</code></pre>
+    <div class="preview">
+      <b>Bold Text</b>
+    </div>
+  </div>
+  
+  <div class="tag-box">
+    <h3>&lt;br&gt; - Line Break</h3>
+    <p>Creates a single line break.</p>
+    <pre><code>Line one.&lt;br&gt;Line two.</code></pre>
+    <div class="preview">
+      Line one.<br>Line two.
+    </div>
+  </div>
+  
+  <div class="tag-box">
+    <h3>&lt;i&gt; - Italic</h3>
+    <p>Makes the text italic.</p>
+    <pre><code>&lt;i&gt;Italic Text&lt;/i&gt;</code></pre>
+    <div class="preview">
+      <i>Italic Text</i>
+    </div>
+  </div>
+  
+  <div class="tag-box">
+    <h3>&lt;header&gt; - Header Section</h3>
+    <p>Defines a page header or introductory content.</p>
+    <pre><code>&lt;header&gt;Welcome Section&lt;/header&gt;</code></pre>
+    <div class="preview">
+      <header>Welcome Section</header>
+    </div>
+  </div>
+  
+  <div class="tag-box">
+    <h3>&lt;img&gt; - Image</h3>
+    <p>Embeds an image into the page.</p>
+    <pre><code>&lt;img src="hhttps://images.unsplash.com/photo-1743482858217-5aef42cfc636?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="placeholder"&gt;</code></pre>
+    <div class="preview">
+      <img src="https://images.unsplash.com/photo-1743482858217-5aef42cfc636?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height= 50 width= 50 alt="placeholder">
+    </div>
+  </div>
+  
+  <div class="tag-box">
+    <h3>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; - Lists</h3>
+    <p>&lt;ul&gt; creates an unordered list, &lt;ol&gt; an ordered list, and &lt;li&gt; each list item.</p>
+    <pre><code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;/ul&gt;
+  
+  &lt;ol&gt;
+    &lt;li&gt;First&lt;/li&gt;
+    &lt;li&gt;Second&lt;/li&gt;
+  &lt;/ol&gt;
+  </code></pre>
+    <div class="preview">
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+      <ol>
+        <li>First</li>
+        <li>Second</li>
+      </ol>
+    </div>
+  </div>
+  
+</section>
+
+  <section id="css-properties">
+    <h2>CSS Properties</h2>
+
+    <div class="tag-box">
+      <h3>color</h3>
+      <p>Sets the color of text.</p>
+      <pre><code>p {
+  color: red;
+}</code></pre>
+      <div class="preview">
+        <p style="color: red;">This text is red.</p>
+      </div>
+    </div>
+
+    <div class="tag-box">
+      <h3>background-color</h3>
+      <p>Changes the background color of an element.</p>
+      <pre><code>div {
+  background-color: lightgray;
+}</code></pre>
+      <div class="preview" style="background-color: lightgray;">
+        Background color applied.
+      </div>
+    </div>
+<div class="tag-box">
+  <h3>background-color</h3>
+  <p>Sets the background color of an element.</p>
+  <pre><code>div {
+  background-color: lightblue;
+}</code></pre>
+  <div class="preview" style="background-color: lightblue;">
+    Light blue background
+  </div>
+</div>
+
+<div class="tag-box">
+  <h3>background-image</h3>
+  <p>Sets a background image on an element.</p>
+  <pre><code>div {
+  background-image: url('https://images.unsplash.com/photo-1743482858217-5aef42cfc636?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}</code></pre>
+  <div class="preview" style="background-image: url('https://images.unsplash.com/photo-1743482858217-5aef42cfc636?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); height: 100px;">
+  </div>
+</div>
+
+<div class="tag-box">
+  <h3>border-color</h3>
+  <p>Changes the color of an element’s border.</p>
+  <pre><code>div {
+  border: 2px solid;
+  border-color: red;
+}</code></pre>
+  <div class="preview" style="border: 2px solid; border-color: red; padding: 0.5rem;">
+    Red border
+  </div>
+</div>
+
+<div class="tag-box">
+  <h3>width</h3>
+  <p>Sets the width of an element.</p>
+  <pre><code>div {
+  width: 200px;
+}</code></pre>
+  <div class="preview" style="width: 200px; background: #eee;">
+    Width set to 200px
+  </div>
+</div>
+
+<div class="tag-box">
+  <h3>font-family</h3>
+  <p>Sets the font style of text.</p>
+  <pre><code>p {
+  font-family: 'Courier New', monospace;
+}</code></pre>
+  <div class="preview" style="font-family: 'Courier New', monospace;">
+    Courier New font
+  </div>
+</div>
+
+<div class="tag-box">
+  <h3>height</h3>
+  <p>Sets the height of an element.</p>
+  <pre><code>div {
+  height: 100px;
+}</code></pre>
+  <div class="preview" style="height: 100px; background-color: #f3f3f3;">
+    Height set to 100px
+  </div>
+</div>
+
+  </section>
+<footer>
+    Copyright &copy; HTML AND CSS QUICK REFERENCE GUIDE - 2025 Harneet Kour.
+</footer>
 </body>
 </html>
